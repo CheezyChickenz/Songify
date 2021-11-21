@@ -1,0 +1,52 @@
+body{
+    background-color: #212121;
+    text-align: center;
+}
+.Title{
+    color: white;
+    font-size: 40px;
+}
+.sub{
+    font-size: 30px;    
+}
+.footer{
+    color: white;
+    background-color: #424242;
+    width: 100%;
+    height: fit-content;
+    font-size: 30px;
+    bottom: 0;
+    position: fixed;
+}    
+.playit{
+    font-size: 40px;
+    border-radius: 20px;
+    margin-top: 1000px;
+}
+.playit:hover{
+    color:red;
+    background-color:white;
+}
+.speed{
+    float: left;
+    margin-left: 100px;
+}
+.volume{
+    float: right;
+    margin-right: 100px;
+}
+.speed,.volume{
+    margin-top: 250px;
+}
+img{
+    width: 650px;
+    height: 650px;
+}
+#Volume,#Speed{
+    font-size: 30px;
+    border-radius: 20px;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 15px;
+}
